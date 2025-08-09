@@ -1,5 +1,4 @@
-// Cambiá a https://api.bytick.com si tu región bloquea bybit.com
-export const BASE = 'https://api.bybit.com';
+export const BASE = 'https://api.bytick.com';
 export const CATEGORY = 'linear'; // perp USDT
 
 export async function getJSON(url) {
